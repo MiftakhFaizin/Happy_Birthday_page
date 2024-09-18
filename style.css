@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(resource/pexels-george-dolgikh-551816-1303081.jpg);
+    background-size: cover;
+    backdrop-filter: brightness(40%);
+}
+
+.container-card {
+    color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    border: 1px solid rgb(212, 59, 72);;
+    border-radius: 8px;
+    gap: 30px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(190, 36, 36);
+}
+
+.container > img {
+    border-radius: 6px;
+    position: relative;
+}
+
+.letter > p {
+    margin-top: 20px;
+}
