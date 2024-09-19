@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(resource/pexels-george-dolgikh-551816-1303081.jpg);
+    background-image: url(assets/pexels-george-dolgikh-551816-1303081.jpg);
     background-size: cover;
     backdrop-filter: brightness(40%);
 }
